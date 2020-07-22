@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SpaceShipController.cpp
+iostream
+-
+stdio.h
+-
+SpaceShipController.h
+/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SpaceShipController.h
+
+/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SpaceShipController.h
+../models/Sector.h
+/cygdrive/c/Users/Emily/CLionProjects/Planet express/models/Sector.h
+../models/Universe.h
+/cygdrive/c/Users/Emily/CLionProjects/Planet express/models/Universe.h
+
+/cygdrive/c/Users/Emily/CLionProjects/Planet express/models/Sector.h
+
+/cygdrive/c/Users/Emily/CLionProjects/Planet express/models/Universe.h
+Sector.h
+/cygdrive/c/Users/Emily/CLionProjects/Planet express/models/Sector.h
+
