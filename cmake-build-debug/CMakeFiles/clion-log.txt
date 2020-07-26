@@ -1,4 +1,4 @@
-C:\Users\Emily\AppData\Local\JetBrains\CLion2020.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/Emily/CLionProjects/Planet express"
+C:\Users\Emily\AppData\Local\JetBrains\CLion2020.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Emily/Documents/c++1/c-1
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug

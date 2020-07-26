@@ -4,34 +4,68 @@
 #include "InputController.h"
 #include "SectorController.h"
 #include "SpaceShipController.h"
-#include "../view/ConsoleView.h"
 
 
 int main() {
 
-    std::default_random_engine generator;
-    const auto seed = std::chrono::system_clock::now().time_since_epoch().count();
-    generator.seed(seed);
-
+    // controllers
     UniverseController universeController;
     InputController inputController;
     SectorController sectorController;
     SpaceShipController spaceShipController;
 
-    Universe universe;
-    universeController.scanSectors(universe, generator);
-
+    // views
     ConsoleView consoleView;
 
-    char* chosenSectorNumber = inputController.getChosenSector();
-    Sector *foundSector = universeController.searchSector(universe, chosenSectorNumber);
-    while (foundSector == nullptr){
-        chosenSectorNumber = inputController.getChosenSector();
-        foundSector = universeController.searchSector(universe, chosenSectorNumber);
-    }
+    // objetcs
+    Universe universe;
+    bool gameLoop = true;
+    enum gamestate {
+        HQ_State, Sector_State
+    };
+    gamestate currentState = HQ_State;
 
-    consoleView.Clear();
-    spaceShipController.placeShip(universe, foundSector);
-    sectorController.travelToSector(foundSector, generator);
+
+    // random generator
+    std::default_random_engine generator;
+    const auto seed = std::chrono::system_clock::now().time_since_epoch().count();
+    generator.seed(seed);
+
+    while (gameLoop) {
+
+        Sector currentSector;
+        if (currentState == HQ_State) {
+            // generate universe
+            consoleView.clear();
+            universeController.scanSectors(universe, generator);
+
+            // wait for input
+            char *chosenSectorNumber = inputController.getChosenSector();
+            Sector *foundSector = universeController.searchSector(universe, chosenSectorNumber);
+
+            // retry if false input
+            while (foundSector == nullptr) {
+                chosenSectorNumber = inputController.getChosenSector();
+                foundSector = universeController.searchSector(universe, chosenSectorNumber);
+            }
+
+            // travel in Universe
+            spaceShipController.placeShip(universe, foundSector, consoleView);
+            spaceShipController.travelShip(universe, currentSector, consoleView, false);
+            currentSector = spaceShipController.getShipCurrentSector();
+            if(!spaceShipController.getShipOutOfBounds()) {
+                currentState = Sector_State;
+            }
+        }
+
+        if (currentState == Sector_State) {
+
+            sectorController.travelToSector(currentSector, generator, consoleView);
+
+            // travel in sector
+            spaceShipController.travelShip(universe, currentSector, consoleView, true);
+
+        }
+    }
 
 }

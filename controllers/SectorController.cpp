@@ -1,61 +1,52 @@
-#include <iostream>
 #include <random>
 #include "SectorController.h"
 
 
-void SectorController::createSectorGrid(int sectorSize) {
-    for (int y = 0; y < sectorSize; y++) {
-        for (int x = 0; x < sectorSize; x++) {
-            traveledSector[x][y] = '.';
+void SectorController::createSectorGrid(Sector &currentSector) {
+    for (int y = 0; y < currentSector.size; y++) {
+        for (int x = 0; x < currentSector.size; x++) {
+            currentSector.sectorContent[x][y] = '.';
         }
     }
 
 }
 
 
-void SectorController::travelToSector(Sector *foundSector, default_random_engine &generator) {
+void SectorController::travelToSector(Sector &currentSector, default_random_engine &generator, ConsoleView &consoleView) {
 
-    createSectorGrid(foundSector->size);
+    createSectorGrid(currentSector);
 
-    for (int i = 0; i < foundSector->pla; i++) {
-        placeObjectInSector('@', foundSector, generator);
-    }
+    for (int i = 0; i < currentSector.pla; i++)
+        placeObjectInSector('@', currentSector, generator);
+    for (int i = 0; i < currentSector.ast; i++)
+        placeObjectInSector('O', currentSector, generator);
+    for (int i = 0; i < currentSector.enc; i++)
+        placeObjectInSector('*', currentSector, generator);
+    placeObjectInSector('P', currentSector, generator);
 
-    for (int i = 0; i < foundSector->ast; i++) {
-        placeObjectInSector('O', foundSector, generator);
-    }
-
-    for (int i = 0; i < foundSector->enc; i++) {
-        placeObjectInSector('*', foundSector, generator);
-    }
-
-    for (int y = 0; y < foundSector->size; y++) {
-        for (int x = 0; x < foundSector->size; x++) {
-            std::cout << traveledSector[x][y] << "  ";
-        }
-        std::cout << std::endl;
-    }
+    consoleView.clear();
+    consoleView.drawSector(currentSector);
 
 }
 
-void SectorController::placeObjectInSector(char objectIcon, Sector *foundSector, default_random_engine &generator) {
+void SectorController::placeObjectInSector(char objectIcon, Sector &currentSector, default_random_engine &generator) {
 
 
-    int randomXpos = generateRandomPosition(foundSector, generator);
-    int randomYpos = generateRandomPosition(foundSector, generator);
+    int randomXpos = generateRandomPosition(currentSector, generator);
+    int randomYpos = generateRandomPosition(currentSector, generator);
 
-    while (traveledSector[randomXpos][randomYpos] != '.'){
-        randomXpos = generateRandomPosition(foundSector, generator);
-        randomYpos = generateRandomPosition(foundSector, generator);
+    while (currentSector.sectorContent[randomXpos][randomYpos] != '.'){
+        randomXpos = generateRandomPosition(currentSector, generator);
+        randomYpos = generateRandomPosition(currentSector, generator);
     }
 
-    traveledSector[randomXpos][randomYpos] = objectIcon;
+    currentSector.sectorContent[randomXpos][randomYpos] = objectIcon;
 
 }
 
-int SectorController::generateRandomPosition(Sector *foundSector, default_random_engine &generator){
+int SectorController::generateRandomPosition(Sector &currentSector, default_random_engine &generator){
 
-    std::uniform_int_distribution<int> pos(0, foundSector->size - 1);
+    std::uniform_int_distribution<int> pos(0, currentSector.size - 1);
     return pos(generator);
 
 }

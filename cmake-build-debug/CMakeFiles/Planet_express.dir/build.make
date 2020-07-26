@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/Emily/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/c/Users/Emily/CLionProjects/Planet express"
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Emily/Documents/c++1/c-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug"
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Planet_express.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/Planet_express.dir/flags.make
 
 CMakeFiles/Planet_express.dir/controllers/main.cpp.o: CMakeFiles/Planet_express.dir/flags.make
 CMakeFiles/Planet_express.dir/controllers/main.cpp.o: ../controllers/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Planet_express.dir/controllers/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/main.cpp.o -c "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Planet_express.dir/controllers/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/main.cpp.o -c /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/main.cpp
 
 CMakeFiles/Planet_express.dir/controllers/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Planet_express.dir/controllers/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/main.cpp" > CMakeFiles/Planet_express.dir/controllers/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/main.cpp > CMakeFiles/Planet_express.dir/controllers/main.cpp.i
 
 CMakeFiles/Planet_express.dir/controllers/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Planet_express.dir/controllers/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/main.cpp" -o CMakeFiles/Planet_express.dir/controllers/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/main.cpp -o CMakeFiles/Planet_express.dir/controllers/main.cpp.s
 
 CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o: CMakeFiles/Planet_express.dir/flags.make
 CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o: ../controllers/UniverseController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o -c "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/UniverseController.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o -c /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/UniverseController.cpp
 
 CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/UniverseController.cpp" > CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/UniverseController.cpp > CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.i
 
 CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/UniverseController.cpp" -o CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/UniverseController.cpp -o CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.s
 
 CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o: CMakeFiles/Planet_express.dir/flags.make
 CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o: ../controllers/SectorController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o -c "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SectorController.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o -c /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/SectorController.cpp
 
 CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SectorController.cpp" > CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/SectorController.cpp > CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.i
 
 CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SectorController.cpp" -o CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/SectorController.cpp -o CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.s
 
 CMakeFiles/Planet_express.dir/controllers/InputController.cpp.o: CMakeFiles/Planet_express.dir/flags.make
 CMakeFiles/Planet_express.dir/controllers/InputController.cpp.o: ../controllers/InputController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Planet_express.dir/controllers/InputController.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/InputController.cpp.o -c "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/InputController.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Planet_express.dir/controllers/InputController.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/InputController.cpp.o -c /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/InputController.cpp
 
 CMakeFiles/Planet_express.dir/controllers/InputController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Planet_express.dir/controllers/InputController.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/InputController.cpp" > CMakeFiles/Planet_express.dir/controllers/InputController.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/InputController.cpp > CMakeFiles/Planet_express.dir/controllers/InputController.cpp.i
 
 CMakeFiles/Planet_express.dir/controllers/InputController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Planet_express.dir/controllers/InputController.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/InputController.cpp" -o CMakeFiles/Planet_express.dir/controllers/InputController.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/InputController.cpp -o CMakeFiles/Planet_express.dir/controllers/InputController.cpp.s
 
 CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o: CMakeFiles/Planet_express.dir/flags.make
 CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o: ../view/ConsoleView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o -c "/cygdrive/c/Users/Emily/CLionProjects/Planet express/view/ConsoleView.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o -c /cygdrive/c/Users/Emily/Documents/c++1/c-1/view/ConsoleView.cpp
 
 CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Emily/CLionProjects/Planet express/view/ConsoleView.cpp" > CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Emily/Documents/c++1/c-1/view/ConsoleView.cpp > CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.i
 
 CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Emily/CLionProjects/Planet express/view/ConsoleView.cpp" -o CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Emily/Documents/c++1/c-1/view/ConsoleView.cpp -o CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.s
 
 CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o: CMakeFiles/Planet_express.dir/flags.make
 CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o: ../controllers/SpaceShipController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o -c "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SpaceShipController.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o -c /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/SpaceShipController.cpp
 
 CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SpaceShipController.cpp" > CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/SpaceShipController.cpp > CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.i
 
 CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SpaceShipController.cpp" -o CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/SpaceShipController.cpp -o CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.s
 
 # Object files for target Planet_express
 Planet_express_OBJECTS = \
@@ -155,7 +155,7 @@ Planet_express.exe: CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o
 Planet_express.exe: CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o
 Planet_express.exe: CMakeFiles/Planet_express.dir/build.make
 Planet_express.exe: CMakeFiles/Planet_express.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Planet_express.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Planet_express.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Planet_express.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/Planet_express.dir/clean:
 .PHONY : CMakeFiles/Planet_express.dir/clean
 
 CMakeFiles/Planet_express.dir/depend:
-	cd "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/c/Users/Emily/CLionProjects/Planet express" "/cygdrive/c/Users/Emily/CLionProjects/Planet express" "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug" "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug" "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles/Planet_express.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Emily/Documents/c++1/c-1 /cygdrive/c/Users/Emily/Documents/c++1/c-1 /cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug /cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug /cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles/Planet_express.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Planet_express.dir/depend
 

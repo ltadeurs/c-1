@@ -7,11 +7,16 @@ CMakeFiles/Planet_express.dir/controllers/InputController.cpp.o: ../controllers/
 CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o: ../controllers/SectorController.cpp
 CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o: ../controllers/SectorController.h
 CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o: ../models/Sector.h
+CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o: ../models/SpaceShip.h
+CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o: ../models/Universe.h
+CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o: ../view/ConsoleView.h
 
 CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o: ../controllers/SpaceShipController.cpp
 CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o: ../controllers/SpaceShipController.h
 CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o: ../models/Sector.h
+CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o: ../models/SpaceShip.h
 CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o: ../models/Universe.h
+CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o: ../view/ConsoleView.h
 
 CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o: ../controllers/UniverseController.cpp
 CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o: ../controllers/UniverseController.h
@@ -24,9 +29,13 @@ CMakeFiles/Planet_express.dir/controllers/main.cpp.o: ../controllers/SpaceShipCo
 CMakeFiles/Planet_express.dir/controllers/main.cpp.o: ../controllers/UniverseController.h
 CMakeFiles/Planet_express.dir/controllers/main.cpp.o: ../controllers/main.cpp
 CMakeFiles/Planet_express.dir/controllers/main.cpp.o: ../models/Sector.h
+CMakeFiles/Planet_express.dir/controllers/main.cpp.o: ../models/SpaceShip.h
 CMakeFiles/Planet_express.dir/controllers/main.cpp.o: ../models/Universe.h
 CMakeFiles/Planet_express.dir/controllers/main.cpp.o: ../view/ConsoleView.h
 
+CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o: ../models/Sector.h
+CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o: ../models/SpaceShip.h
+CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o: ../models/Universe.h
 CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o: ../view/ConsoleView.cpp
 CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o: ../view/ConsoleView.h
 

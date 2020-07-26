@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/InputController.cpp" "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/InputController.cpp.o"
-  "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SectorController.cpp" "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o"
-  "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/SpaceShipController.cpp" "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o"
-  "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/UniverseController.cpp" "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o"
-  "/cygdrive/c/Users/Emily/CLionProjects/Planet express/controllers/main.cpp" "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/main.cpp.o"
-  "/cygdrive/c/Users/Emily/CLionProjects/Planet express/view/ConsoleView.cpp" "/cygdrive/c/Users/Emily/CLionProjects/Planet express/cmake-build-debug/CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o"
+  "/cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/InputController.cpp" "/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/InputController.cpp.o"
+  "/cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/SectorController.cpp" "/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/SectorController.cpp.o"
+  "/cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/SpaceShipController.cpp" "/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/SpaceShipController.cpp.o"
+  "/cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/UniverseController.cpp" "/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/UniverseController.cpp.o"
+  "/cygdrive/c/Users/Emily/Documents/c++1/c-1/controllers/main.cpp" "/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles/Planet_express.dir/controllers/main.cpp.o"
+  "/cygdrive/c/Users/Emily/Documents/c++1/c-1/view/ConsoleView.cpp" "/cygdrive/c/Users/Emily/Documents/c++1/c-1/cmake-build-debug/CMakeFiles/Planet_express.dir/view/ConsoleView.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -3,20 +3,19 @@
 
 
 #include "../models/Sector.h"
+#include "../view/ConsoleView.h"
 
 using namespace std;
 class SectorController{
 
 public:
-    void travelToSector(Sector *foundSector, default_random_engine &generator);
-    void createSectorGrid(int sectorSize);
+    void travelToSector(Sector &currentSector, default_random_engine &generator, ConsoleView &consoleView);
+    void createSectorGrid(Sector &currentSector);
 
 private:
-    char traveledSector[10][10];
+    void placeObjectInSector(char objectIcon, Sector &currentSector, default_random_engine &generator);
 
-    void placeObjectInSector(char objectIcon, Sector *foundSector, default_random_engine &generator);
-
-    int generateRandomPosition(Sector *foundSector, default_random_engine &generator);
+    int generateRandomPosition(Sector &currentSector, default_random_engine &generator);
 };
 
 
