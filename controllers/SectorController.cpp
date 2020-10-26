@@ -14,19 +14,28 @@ void SectorController::createSectorGrid(Sector &currentSector) {
 
 void SectorController::travelToSector(Sector &currentSector, default_random_engine &generator, ConsoleView &consoleView) {
 
+
+  if(savedSectors[currentSector.xPos][currentSector.yPos].id != currentSector.id) {
+
     createSectorGrid(currentSector);
 
     for (int i = 0; i < currentSector.pla; i++)
-        placeObjectInSector('@', currentSector, generator);
+      placeObjectInSector('@', currentSector, generator);
     for (int i = 0; i < currentSector.ast; i++)
-        placeObjectInSector('O', currentSector, generator);
+      placeObjectInSector('O', currentSector, generator);
     for (int i = 0; i < currentSector.enc; i++)
-        placeObjectInSector('*', currentSector, generator);
+      placeObjectInSector('*', currentSector, generator);
     placeObjectInSector('P', currentSector, generator);
+
+  }
+  else{
 
     consoleView.clear();
     consoleView.drawSector(currentSector);
 
+    savedSectors[currentSector.xPos][currentSector.yPos] = currentSector;
+
+    }
 }
 
 void SectorController::placeObjectInSector(char objectIcon, Sector &currentSector, default_random_engine &generator) {

@@ -29,6 +29,7 @@ void UniverseController::scanSectors(Universe &universe, default_random_engine &
             sector.pla = pla;
             sector.xPos = x;
             sector.yPos = y;
+            sector.id = x + y;
 
             ostringstream sectorStream;
             sectorStream << ast << enc << pla;

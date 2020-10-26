@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/InputController.h
+
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/SectorController.cpp
+random
+-
+SectorController.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/SectorController.h
+
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/SectorController.h
+../models/Sector.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/models/Sector.h
+../view/ConsoleView.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/view/ConsoleView.h
+
 /cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/SpaceShipController.cpp
 windows.h
 -
@@ -22,6 +36,34 @@ SpaceShipController.h
 ../view/ConsoleView.h
 /cygdrive/c/Users/Luuk/Desktop/c++/c-1/view/ConsoleView.h
 
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/UniverseController.cpp
+random
+-
+iostream
+-
+sstream
+-
+UniverseController.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/UniverseController.h
+
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/UniverseController.h
+../models/Universe.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/models/Universe.h
+
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/main.cpp
+random
+-
+chrono
+-
+UniverseController.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/UniverseController.h
+InputController.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/InputController.h
+SectorController.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/SectorController.h
+SpaceShipController.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/controllers/SpaceShipController.h
+
 /cygdrive/c/Users/Luuk/Desktop/c++/c-1/models/Sector.h
 
 /cygdrive/c/Users/Luuk/Desktop/c++/c-1/models/SpaceShip.h
@@ -29,6 +71,12 @@ SpaceShipController.h
 /cygdrive/c/Users/Luuk/Desktop/c++/c-1/models/Universe.h
 Sector.h
 /cygdrive/c/Users/Luuk/Desktop/c++/c-1/models/Sector.h
+
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/view/ConsoleView.cpp
+iostream
+-
+ConsoleView.h
+/cygdrive/c/Users/Luuk/Desktop/c++/c-1/view/ConsoleView.h
 
 /cygdrive/c/Users/Luuk/Desktop/c++/c-1/view/ConsoleView.h
 ../models/Universe.h

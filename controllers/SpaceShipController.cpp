@@ -71,7 +71,7 @@ void SpaceShipController::moveShip(Universe &universe, Sector &currentSector, in
                 else if (direction == VK_LEFT)
                     newXcor--;
 
-                if (inSector && currentSector.sectorContent[x][y] == '.') {
+                if (inSector && currentSector.sectorContent[newXcor][newYcor] == '.') {
                     currentSector.sectorContent[x][y] = '.';
                     currentSector.sectorContent[newXcor][newYcor] = 'P';
                 } else if (!inSector) {

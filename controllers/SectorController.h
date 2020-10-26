@@ -14,6 +14,7 @@ public:
 
 private:
     void placeObjectInSector(char objectIcon, Sector &currentSector, default_random_engine &generator);
+    Sector savedSectors[5][5];
 
     int generateRandomPosition(Sector &currentSector, default_random_engine &generator);
 };
