@@ -71,10 +71,10 @@ void SpaceShipController::moveShip(Universe &universe, Sector &currentSector, in
                 else if (direction == VK_LEFT)
                     newXcor--;
 
-                if (inSector) {
+                if (inSector && currentSector.sectorContent[x][y] == '.') {
                     currentSector.sectorContent[x][y] = '.';
                     currentSector.sectorContent[newXcor][newYcor] = 'P';
-                } else {
+                } else if (!inSector) {
                     if (newXcor >= areaSize || newYcor >= areaSize) {
                         spaceShip.outOfBounds = true;
                         return;

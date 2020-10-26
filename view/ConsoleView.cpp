@@ -10,7 +10,7 @@ void ConsoleView::drawUniverse(Universe &universe, SpaceShip &spaceShip) {
     int shipXpos;
     int shipYpos;
 
-    clear();
+    this->clear();
 
     for (int y = 0; y < universe.size; y++) {
         for (int x = 0; x < universe.size; x++) {
